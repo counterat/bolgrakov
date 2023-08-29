@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en"style="overflow-y: visible;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title></title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')  }}">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style>
+    html,
+    body {
+      position: relative;
+      height: 100vh;
+    }
+  
+    body {
+        background: url(static/img/Початкова\ школа\ \(1\).png);
+  
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+</style>
+</head>
+<body>
+  <header  style="height: 15%; background: rgba(197, 158, 119, 0.69); width: 100%; position: relative; " >
+      
+       
+            
+    <img src="static/img/image_2023-02-12_17-46-10 1 (1).png"  style="margin-top: 0.65%; margin-left: 13%; width: 6%; user-select: none;">
+  
+  
+    <h1 id="title">ОЗ "Спеціалізована загальноосвітня школа-інтернат<br>"Болградська гімназія ім. Г.С. Раковського"</h1>
+  
+
+</header>
+<section class="subheader" style="height: 7%; position: relative;">
+  <a href="{{domain}}" style="position: absolute; top: 10%; padding-top: 0.5%; left: 13.2%;  "><p class="navs" style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.25vw;
+    
+    /* identical to box height */
+    user-select: none;
+    
+    color: #FFFFFF;">Головна</p></a>
+    <a href="{{domain}}/history.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 20.0%;  "><p class="navs" style="font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1vw;
+      line-height: 1.25vw;
+      
+      /* identical to box height */
+      user-select: none;
+      
+      color: #FFFFFF;">Про заклад</p></a>
+      <a href="{{domain}}/attention.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 28.2%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Новини</p></a>
+        
+
+<a href="https://nz.ua/school/wall?id=22336"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 35.0%;  "><p class="navs" style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 1vw;
+line-height: 1.25vw;
+
+/* identical to box height */
+user-select: none;
+
+color: #FFFFFF;">Електронний щоденник</p></a>
+<a href="{{domain}}/news.html"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 50.0%;  "><p class="navs" style="font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 1.25vw;
+  
+  /* identical to box height */
+  user-select: none;
+  
+  color: #FFFFFF;">Дошка оголошень</p></a>
+
+   
+  
+
+</section>
+
+<div style="background: #785338;
+      /* light green */
+      position: relative;
+      border: 1px solid #E3E8E4;
+      border-radius: 15px;
+      height: 8%;
+      width: 90%;
+      margin-left: 4.8%;
+      margin-top: 2%;">
+      <a href="{{domain}}/history.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 20.2%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.0vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Історія</p></a>
+      
+      <a href="{{domain}}/primary.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 30.5%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.0vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Початкова школа</p></a>
+        <a href="{{domain}}/high-school.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 46.5%;  "><p class="navs" style="font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.0vw;
+          line-height: 1.25vw;
+          
+          /* identical to box height */
+          user-select: none;
+          white-space: nowrap;
+          color: #FFFFFF;">Середня та старша школа</p></a>
+
+<a href="{{domain}}/proud.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 67.5%;  "><p class="navs" style="font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.0vw;
+  line-height: 1.25vw;
+  
+  /* identical to box height */
+  user-select: none;
+  white-space: nowrap;
+  color: #FFFFFF;">Гімназія пишається</p></a>
+
+      </div>
+
+    <main style="position: relative;text-align: center;">
+        <h2 style="font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 2.25wv;
+        /* identical to box height */
+      
+        user-select: none;
+        padding-top: 3%;
+        color: #521212;">Початкова школа</h2>
+        <p style="font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.3rem;
+        line-height: 2.8rem;
+        margin-left: 2%;
+        max-width: 92.5%;
+        text-align: left;
+        padding-left: 4vw;
+        padding-top: 2.5%;
+        color: #541010;">&nbsp;&nbsp;Одне із головних завдань молодшої школи, окрім надання знань та навичок, адаптація дитини до нового етапу життя. 
+<br>
+<br>
+            Сьогодні гімназія працює над формуванням ключових компетентностей випускника <strong>Нової української школи</strong>. Випускники закладу у майбутньому
+          це: <em>зорієнтовані на кінцевий результат студенти; креативні та конкурентоспроможні працівники; відповідальні батьки</em>, а в цілому це - <em>нова генерація учнів, вчителів, батьків і разом солідарне та патріотичне суспільство</em>.</p>
+          
+    
+        </main>
+        <section style="width: 100%; margin-top: 3%;">
+        <div style="max-width: 29%; margin-left: 20%; position: relative; display: flexbox;">
+          <img src="static/img/Ellipse 1.png" width="15%" alt="">
+          <span style="font-size: 2.5vw; position: absolute; top: 5%; left: 5.25%;color: #541010;font-family: 'PT Serif';">1</span>
+          <span style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.5vw;
+          position: absolute;
+          top: 10%;
+          left: 17.5%;
+          
+          color: #541010;">Індивідуальність</span>
+          <p style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2vw;
+          line-height: 2.5vw;
+          position: absolute;
+          color: #5B1818;
+          max-width: 90%;"> 
+            Вчителі направляють учня по 
+            індивідуальній траєкторії навчання та дають додаткові вправи для реалізації потенціалу дитини.
+          </p>
+        </div>
+        <div style="max-width: 29%; margin-left: 55%; margin-top: -4.25%; position: relative; display: flexbox; ">
+          <img src="static/img/Ellipse 1.png" width="15%" alt="">
+          <span style="font-size: 2.5vw; position: absolute; top: 5%; left: 5.25%;color: #541010;font-family: 'PT Serif'">2</span>
+          <span style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.5vw;
+          position: absolute;
+          top: 10%;
+          left: 17.5%;
+          
+          
+          color: #541010;">Гуртки</span>
+          <p style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2vw;
+          line-height: 2.5vw;
+          position: absolute;
+          color: #5B1818;
+          max-width: 90%;"> 
+            В другій половині дня діти відвідують гуртки: в'язання, малювання, бісероплетіння, спів та танці
+          </p>
+        </div>
+        
+        <div style="max-width: 29%; margin-left: 20%; margin-top: 15%; position: relative; display: flexbox; ">
+          <img src="static/img/Ellipse 1.png" width="15%" alt="">
+          <span style="font-size: 2.5vw; position: absolute; top: 5%; left: 5.25%;color: #541010;font-family: 'PT Serif'">3</span>
+          <span style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.5vw;
+          position: absolute;
+          top: 10%;
+          left: 17.5%;
+          
+          
+          color: #541010;">Простір</span>
+          <p style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2vw;
+          line-height: 2.5vw;
+          position: absolute;
+          color: #5B1818;
+          max-width: 90%;"> 
+            Маленькій дитині потрібно багато простору для розвитку. В кабінетах школи є ігрові зони, де дитина може відпочити на перерві та після уроків.
+          </p>
+        </div>
+
+        <div style="max-width: 29%; margin-left: 55%; margin-top: -4.25%; position: relative; display: flexbox; ">
+          <img src="static/img/Ellipse 1.png" width="15%" alt="">
+          <span style="font-size: 2.5vw; position: absolute; top: 5%; left: 5.25%;color: #541010;font-family: 'PT Serif'">4</span>
+          <span style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.5vw;
+          position: absolute;
+          top: 10%;
+          left: 17.5%;
+          
+          
+          color: #541010;">Рух</span>
+          <p style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2vw;
+          line-height: 2.5vw;
+          position: absolute;
+          color: #5B1818;
+          max-width: 90%;"> 
+            Фізична активність дуже важлива у початкових класах, тому ми заохочуємо дітей до рухливості. Щодня обов'язкові ігри у дворі та екскурсії на свіжому повітрі.
+          </p>
+        </div>
+        <div style="max-width: 29%; margin-left: 20%; margin-top: 18%; position: relative; display: flexbox; ">
+          <img src="static/img/Ellipse 1.png" width="15%" alt="">
+          <span style="font-size: 2.5vw; position: absolute; top: 5%; left: 5.25%;color: #541010;font-family: 'PT Serif'">5</span>
+          <span style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.5vw;
+          position: absolute;
+          top: 10%;
+          left: 17.5%;
+          
+          
+          color: #541010;">Безпека</span>
+          <p style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2vw;
+          line-height: 2.5vw;
+          position: absolute;
+          color: #5B1818;
+          max-width: 90%;"> 
+             Діти можуть зосередитися на навчанні, коли почувають себе в безпеці. В цьому віці це відчуття пов'язане з чіткими межами, виставленими дорослими. Для цього ми застосовуємо зрозумілі заборонні правила та правила позитивного підкріплення.
+          </p>
+        </div>
+        <div style="max-width: 29%; margin-left: 55%; margin-top: -4.25%; position: relative; display: flexbox; ">
+          <img src="static/img/Ellipse 1.png" width="15%" alt="">
+          <span style="font-size: 2.5vw; position: absolute; top: 5%; left: 5.25%;color: #541010;font-family: 'PT Serif'">6</span>
+          <span style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 2.5vw;
+          position: absolute;
+          top: 10%;
+          left: 17.5%;
+          
+          
+          color: #541010;">Повага</span>
+          <p style="font-family: 'PT Serif';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 2vw;
+          line-height: 2.5vw;
+          position: absolute;
+          color: #5B1818;
+          max-width: 90%;"> 
+              Для нашої школи важливою цінністю є взаємна повага. В першу чергу, це повага вчителів до учнів та взаємна повага між учнями. Так закладається основа майбутнього вміння гармонійно існувати та діяти в колективі.
+          </p>
+        </div>
+        
+        </section>
+
+  
+    
+    
+        <footer class="subfooter" style="background: #F2C7C7; margin-top: 30%; position: relative;">
+          <img src="static/img/image_2023-02-12_17-46-10 1 (1).png" style="position: absolute;
+          border-radius: 103px;
+          width: 10.7%;
+          left: 7.2%;
+          top: 30%;
+          user-select: none;
+          
+            ;" alt="">
+           <span style="font-family: 'Playfair Display';
+           white-space: nowrap;
+            max-width: 31.5%;
+           font-style: normal;
+           font-weight: 400;
+           font-size: 2vw;
+           line-height: 2.25vw;
+           position: absolute;
+           left: 18.3%;
+           top: 35%;
+           user-select: none;
+           color: #981E1E;
+           ">ОЗ "Спеціалізована загальноосвітня<br> школа-інтернат "Болградська гімназія<br> ім. Г.С. Раковського"</span>  
+          <div style="font-family: 'Playfair Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1vw;
+          line-height: 1.25vw;
+          position: absolute;
+          top: 75%;
+          white-space: nowrap;
+          left: 18%;
+          max-width: 24%;
+          user-select: none;
+          color: #981E1E;">Дизайн та розробка: Желяскова Валерія та Жолтов Юрій  </div>
+        
+    
+    
+    <img src="static/img/icons8-список-звонков-50 2 (2).png" style="width: 2.6%;position: absolute;
+     top: 30%;
+      
+      left: 53%;" alt="">
+    
+        <a href="tel:+380484641307" style="position: absolute; font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.75vw;
+           line-height: 1.55vw;
+        position: absolute;
+        top: 33%;
+      
+        left: 56%;
+        max-width: 24%;
+        user-select: none;
+        color: #981E1E;">(04846)41307</a>
+        
+        <div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 45%;*"></div>
+    
+    
+    
+        <img src="static/img/icons8-google-карты-24 2.png" style="width: 2.1%;position: absolute;
+     top: 45.75%;
+      
+      left: 53.25%;" alt="">
+    
+        <address style="position: absolute; font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.75vw;
+           line-height: 1.55vw;
+        position: absolute;
+        top: 48%;
+      
+        left: 56%;
+        max-width: 24%;
+        user-select: none;
+        color: #981E1E;">вул. Училищна, Болград</address>
+        
+        <div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 60%;*"></div>
+        
+        
+        <img src="static/img/icons8-сообщение-с-заливкой-30 2.png" style="width: 2.2%;position: absolute;
+     top: 62.75%;
+      
+      left: 53.25%;" alt="">
+    
+        <address style="position: absolute; font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.75vw;
+           line-height: 1.55vw;
+        position: absolute;
+        top: 63%;
+      
+        left: 56%;
+        max-width: 24%;
+        user-select: none;
+        color: #981E1E;">gimnaziya_bol@ukr.net</address>
+        
+        <div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 75%;*"></div>
+        
+        
+        <a href="" style="">
+          <img src="static/img/icons8-instagram-50 1.png" style="width: 3.2%; position: absolute; top: 37%; left: 75.5%;" alt="">
+    
+        </a>
+        
+        <a href="" style="">
+          <img src="static/img/icons8-facebook-50 1.png" style="width: 3.15%; position: absolute; top: 55%; left: 75.5%;" alt="">
+    
+        </a>
+        
+        <img src="static/img/image 1.png" style="width: 23%; position: absolute; top: 10%; left: 78%;" alt="">
+        
+          
+          <div style="
+          background: #F2C7C7;
+          filter: blur(15px);
+          height: 20%;
+          position: absolute;
+          top: -15%;
+          width: 105%;"></div>
+        
+        </footer>
+
+    
+    
+  
+</body>
+</html>

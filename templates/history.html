@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en"style="overflow-y: visible;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')  }}">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style>
+    html,
+    body {
+      position: relative;
+      height: 100vh;
+    }
+  
+    body {
+        background: #F1D8BE;
+  border: 1px solid #000000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+</style>
+</head>
+<body>
+    <header  style="height: 15%; background: rgba(197, 158, 119, 0.69); width: 100%; position: relative; " >
+      
+       
+            
+              <img src="static/img/image_2023-02-12_17-46-10 1 (1).png"  style="margin-top: 0.65%; margin-left: 13%; width: 6%; user-select: none;">
+            
+            
+              <h1 id="title">ОЗ "Спеціалізована загальноосвітня школа-інтернат<br>"Болградська гімназія ім. Г.С. Раковського"</h1>
+            
+          
+      </header>
+      <section class="subheader" style="height: 7%; position: relative;">
+        <a href="{{domain}}" style="position: absolute; top: 10%; padding-top: 0.5%; left: 13.2%;  "><p class="navs" style="font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1vw;
+          line-height: 1.25vw;
+          
+          /* identical to box height */
+          user-select: none;
+          
+          color: #FFFFFF;">Головна</p></a>
+          <a href="{{domain}}/history.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 20.0%;  "><p class="navs" style="font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1vw;
+            line-height: 1.25vw;
+            
+            /* identical to box height */
+            user-select: none;
+            
+            color: #FFFFFF;">Про заклад</p></a>
+            <a href="{{domain}}/attention.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 28.2%;  "><p class="navs" style="font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 1vw;
+              line-height: 1.25vw;
+              
+              /* identical to box height */
+              user-select: none;
+              
+              color: #FFFFFF;">Новини</p></a>
+              
+      
+      <a href="https://nz.ua/school/wall?id=22336"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 35.0%;  "><p class="navs" style="font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1vw;
+      line-height: 1.25vw;
+      
+      /* identical to box height */
+      user-select: none;
+      
+      color: #FFFFFF;">Електронний щоденник</p></a>
+      <a href="{{domain}}/news.html"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 50.0%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Дошка оголошень</p></a>
+      
+         
+        
+      
+      </section>
+      <div style="background: #785338;
+      /* light green */
+      position: relative;
+      border: 1px solid #E3E8E4;
+      border-radius: 15px;
+      height: 8%;
+      width: 90%;
+      margin-left: 4.8%;
+      margin-top: 2%;">
+      <a href="{{domain}}/history.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 20.2%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.0vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Історія</p></a>
+      
+      <a href="{{domain}}/primary.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 30.5%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.0vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Початкова школа</p></a>
+        <a href="{{domain}}/high-school.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 46.5%;  "><p class="navs" style="font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.0vw;
+          line-height: 1.25vw;
+          
+          /* identical to box height */
+          user-select: none;
+          white-space: nowrap;
+          color: #FFFFFF;">Середня та старша школа</p></a>
+
+<a href="{{domain}}/proud.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 67.5%;  "><p class="navs" style="font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.0vw;
+  line-height: 1.25vw;
+  
+  /* identical to box height */
+  user-select: none;
+  white-space: nowrap;
+  color: #FFFFFF;">Гімназія пишається</p></a>
+
+      </div>
+      
+    
+
+    <main class="main_about" style="position: relative;position: relative;
+    height: 90%;
+    width: 100%;
+    margin-top: 2%;
+    background: url(static/img/Picsart_23-02-20_15-05-20-851.jpg) center center no-repeat;
+    background-size: cover;"><div style="position: absolute;
+      width: 120%;
+      height: 7vh;
+      left: -2%;
+      top: -3.75%;
+      z-index: 11;
+      background: #F1D8BE;
+      
+      filter: blur(0.75vw);"></div>  <div style="white-space: nowrap;
+    
+    font-family: 'PT Serif';
+    position: absolute;
+    left: 18%;
+    top: 35%;
+font-style: normal;
+font-weight: 400;
+font-size: 3vw;
+line-height: 3.25vw;
+text-align: center;user-select: none;
+
+color: #F7F3E8;">Історична довідка про областний заклад<br>
+      «Спеціалізована загальноосвітня школа - інтернат<br>
+      «Болградська гімназія ім. Г. С. Раковського»<br></div>
+    
+      <div style="position: absolute;
+      width: 120%;
+      height: 8vh;
+      left: -2%;
+      top: 85.5vh;
+      z-index: 11;
+      background: #F1D8BE;
+      filter: blur(0.75vw);"></div>  
+    </main>
+<section >
+ <div style="position: relative;"><img src="static/img/image 2.png" style="border-radius: 29px;
+
+width: 24.8%;
+margin-top: -8%;
+margin-left: 7.2%;
+float: left;
+" alt="">
+</div>
+
+<p style="font-family: 'PT Serif';
+
+font-style: normal;
+
+font-size: 2.2rem;
+line-height: 3.2rem;
+max-width: 65%;
+margin-left: 34.5%;
+max-width: 60%;
+color: #422712;
+margin-top: 13%;
+
+">&nbsp;&nbsp; Ідея про створення болгарської середньої школи в Бессарабії належить болгарофілу, українцю <strong>Юрію Венеліну,  </strong>  який у <strong>1832 році</strong> запропонував відкрити <em>у Болграді Центральну школу та Національний
+   болгарський музей</em> . Його ідея, однак, набула розвитку лише в <strong>1858 році,</strong> коли турецький султан призначив керуючим Молдови князя Миколу Конакі-Богориді, правнука відомого болгарського діяча епохи Відродження Софронія Врачанського. </p>
+  <br>
+  <br>
+  <br>
+  <br>
+   
+
+
+</section>
+
+<section>
+  <img src="static/img/image 3.png" style="width: 24.8%;
+  float: right;
+  margin-top: -5%;
+  margin-right: 5%;" alt="">
+  <p style="font-family: 'PT Serif';
+margin-top: 7%;
+  font-style: normal;
+  margin-left: 7.2%;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  
+ 
+  color: #422712;">&nbsp;   Після того, як делегація з болгарських колоній прибула з підписами на підтримку створення болгарської школи, Богориді видав указ, в якому були детально описані статус та принципи фінансування та управління Болградською гімназією Святих Кирила та Мефодія. Сприяння відкриттю першої болгарської гімназії надав також болгарський революціонер <strong>Георгі Раковський</strong>, який був знайомий із князем з раннього віку і прибув до Молдови, щоб просити Богориді про дозвіл відкрити болгарську друкарню там.</p>
+  
+</section>
+
+<img src="static/img/old_gymnasium.png" style="object-fit:cover; width: 77.7%; margin-left: 11.1%; margin-top: 3.5%;" alt="">
+<p style="font-family: 'PT Serif';
+
+font-style: normal;
+
+font-size: 2.3rem;
+line-height: 3rem;
+max-width: 90.25%;
+margin-top: 2%;
+margin-left: 7.2%;
+color: #422712;">&nbsp;&nbsp;   Гімназія в Болграді перетворилася на перший великий болгарський освітній та культурний інститут до визволення Болгарії в <strong>1878</strong> році. Перші навчальні програми включали вивчення <span style="text-decoration: underline;">французької, латинської, німецької, слов'янської, болгарської та румунської мов, історію, математику, малювання, астрономію та ін.</span>, а першим директором було призначено <strong>Сава Радуєва</strong>. З волі засновників викладання навчальних дисциплін велося болгарською мовою. У <strong>1999</strong> році болградська гімназія була названа ім'ям відомого революціонера та демократа, діяча болгарського національно-визвольного руху <strong>Георгі Сави Раковського</strong>.</p>
+
+
+
+<br>
+
+<div class="swiper-container mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" style="margin-left: 1.5%;"><img class="img-carousel" src="static/img/image 4.png" alt=""><span  class="img-subtext">Олександр Теодорів-Балан</span></div>
+    <div class="swiper-slide"><img class="img-carousel" src="static/img/image 5.png" alt=""><span  class="img-subtext">Данаїл Миколаїв</span></div>
+    <div class="swiper-slide"><img class="img-carousel" src="static/img/image 6.png" alt=""><span  class="img-subtext">Георгі Тодоров</span></div>
+    <div class="swiper-slide"><img class="img-carousel" src="static/img/image 7.png" alt=""><span  class="img-subtext">Димитр Агура</span></div>
+    <div class="swiper-slide"><img class="img-carousel" src="static/img/ivan-salabashev.jpg" alt=""><span  class="img-subtext">Іван Салабашев</span></div>
+    <div class="swiper-slide"><img class="img-carousel" src="static/img/georgii-zgurev.jpg" alt=""><span  class="img-subtext">Георгій Згурєв</span></div>
+    <div class="swiper-slide"><img class="img-carousel" src="static/img/iov-titorov.jpg" alt=""><span  class="img-subtext">Іов Тіторов</span></div>
+    <div class="swiper-slide"><img class="img-carousel" src="static/img/dimitar-grekov.jpg" alt=""><span  class="img-subtext">Димитар Греков</span></div>
+    <div class="swiper-slide"><img class="img-carousel" src="static/img/oleksandr-malinov.jpg" alt=""><span  class="img-subtext">Олександр Малінов</span></div> 
+    </div>
+  </div>
+</div>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      
+      
+      
+    });
+    
+
+  </script>
+  <p style="font-family: 'PT Serif';
+
+  font-style: normal;
+  
+  font-size: 2.2rem;
+  line-height: 3rem;
+ 
+  margin-left: 7.2%;
+  max-width: 90%;
+  color: #422712;
+  margin-top: 12vh;
+  
+  ">&nbsp;    Болградська гімназія відіграла велику роль у розвитку національної самосвідомості серед безсарабських болгар у другій половині ХІХ ст. Вона дала освіту та випустила велику плеяду болгарської безсарабської інтелігенції, яка присвятила своє життя будівництву звільненої Болгарії. Серед випускників – академік <strong>Олександр Теодоров-Балан</strong> – перший ректор Софійського університету, генерали <strong>Данаїл Ніколаєв</strong> та <strong>Георгі Тодоров</strong>, міністри <strong>Димитр Агура</strong>  (освячення), <strong>Іван Салабашев</strong> (фінансів), <strong>Георгі Згурєв</strong> та <strong>Йов Тіторов</strong> (юстиції), <strong>Димитр Греков</strong> та <strong>Олександр Малінов</strong> (прем'єр) -міністри Болгарії) та інші діячі, чиї імена вписані золотими літерами у сторінки болгарської історії.</p>
+
+  <img src="static/img/image 13.png" alt="" style="float: left;
+  margin-top: 3.5%;
+  margin-left: 7.2%;
+ 
+  width: 45vw;">
+<p style="font-family: 'PT Serif';
+
+font-style: normal;
+
+font-size: 2.2rem;
+line-height: 3rem;
+max-width: 40%;
+margin-left: 55%;
+color: #422712;">&nbsp;&nbsp; <em>У наші дні гімназія – один із найпрестижніших навчальних закладів на Південній Україні</em>, в якому вивчаються болгарська мова та література, історія та культура болгарського народу. Завдяки відродженню болгарських народних традицій, звичаїв та свят, школа все більше стверджується, як культурний та духовний центр усього болгарського у Бессарабії.</p>
+<div></div>
+<footer class="subfooter" style="background: #E6B989; margin-top: 10%; position: relative;">
+  <img src="static/img/image_2023-02-12_17-46-10 1 (1).png" style="position: absolute;
+  border-radius: 103px;
+  width: 10.7%;
+  left: 7.2%;
+  top: 30%;
+  user-select: none;
+  
+    ;" alt="">
+   <span style="font-family: 'Playfair Display';
+   white-space: nowrap;
+    max-width: 31.5%;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2vw;
+   line-height: 2.25vw;
+   position: absolute;
+   left: 18.3%;
+   top: 35%;
+   user-select: none;
+   color: #422712;
+   ">ОЗ "Спеціалізована загальноосвітня<br> школа-інтернат "Болградська гімназія<br> ім. Г.С. Раковського"</span>  
+  <div style="font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.25vw;
+  position: absolute;
+  top: 75%;
+  white-space: nowrap;
+  left: 18%;
+  max-width: 24%;
+  user-select: none;
+  color: #7A5B44;">Дизайн та розробка: Желяскова Валерія та Жолтов Юрій  </div>
+
+
+
+<img src="static/img/icons8-список-звонков-50 1.png" style="width: 2.6%;position: absolute;
+top: 30%;
+
+left: 53%;" alt="">
+
+<a href="tel:+380484641307" style="position: absolute; font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75vw;
+   line-height: 1.55vw;
+position: absolute;
+top: 33%;
+
+left: 56%;
+max-width: 24%;
+
+color: #422712;;">(04846)41307</a>
+
+<div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 45%;*"></div>
+
+
+
+<img src="static/img/icons8-google-карты-24 1.png" style="width: 2.1%;position: absolute;
+top: 45%;
+
+left: 53%;" alt="">
+
+<address style="position: absolute; font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75vw;
+   line-height: 1.55vw;
+position: absolute;
+top: 48%;
+
+left: 56%;
+max-width: 24%;
+user-select: none;
+color: #422712;">вул. Училищна, Болград</address>
+
+<div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 60%;*"></div>
+
+
+<img src="static/img/icons8-сообщение-с-заливкой-30 1.png" style="width: 2.2%;position: absolute;
+top: 62%;
+
+left: 53%;" alt="">
+
+<address style="position: absolute; font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75vw;
+   line-height: 1.55vw;
+position: absolute;
+top: 63%;
+
+left: 56%;
+max-width: 24%;
+user-select: none;
+color: #422712;">gimnaziya_bol@ukr.net</address>
+
+<div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 75%;*"></div>
+
+
+<a href="" style="">
+  <img src="static/img/icons8-instagram-30 (1) 1.png" style="width: 3.2%; position: absolute; top: 37%; left: 75.5%;" alt="">
+
+</a>
+
+<a href="" style="">
+  <img src="static/img/icons8-facebook-24 1.png" style="width: 2.5%; position: absolute; top: 55%; left: 75.9%;" alt="">
+
+</a>
+
+<img src="static/img/image 1.png" style="width: 23%; position: absolute; top: 10%; left: 78%;" alt="">
+
+  
+  <div style="
+  background: #E6B989;
+  filter: blur(0.5vw);
+  height: 20%;
+  position: absolute;
+  top: -12.5%;
+  width: 105%;"></div>
+
+</footer>
+
+</body>
+</html>

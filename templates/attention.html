@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en"style="overflow-y: visible;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')  }}"  >
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style>
+    html,
+    body {
+      position: relative;
+      height: 100vh;
+    }
+  
+    body {
+        background: #F6DCD8;
+  
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+</style>
+</head>
+<body>
+  <header  style="height: 15%; background: rgba(197, 158, 119, 0.69); width: 100%; position: relative; " >
+      
+       
+            
+    <img src="static/img/image_2023-02-12_17-46-10 1 (1).png"  style="margin-top: 0.65%; margin-left: 13%; width: 6%; user-select: none;">
+  
+  
+    <h1 id="title">ОЗ "Спеціалізована загальноосвітня школа-інтернат<br>"Болградська гімназія ім. Г.С. Раковського"</h1>
+  
+
+</header>
+<section class="subheader" style="height: 7%; position: relative;">
+  <a href="{{domain}}" style="position: absolute; top: 10%; padding-top: 0.5%; left: 13.2%;  "><p class="navs" style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.25vw;
+    
+    /* identical to box height */
+    user-select: none;
+    
+    color: #FFFFFF;">Головна</p></a>
+    <a href="{{domain}}/history.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 20.0%;  "><p class="navs" style="font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1vw;
+      line-height: 1.25vw;
+      
+      /* identical to box height */
+      user-select: none;
+      
+      color: #FFFFFF;">Про заклад</p></a>
+      <a href="{{domain}}/attention.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 28.2%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Новини</p></a>
+        
+
+<a href="https://nz.ua/school/wall?id=22336"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 35.0%;  "><p class="navs" style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 1vw;
+line-height: 1.25vw;
+
+/* identical to box height */
+user-select: none;
+
+color: #FFFFFF;">Електронний щоденник</p></a>
+<a href="{{domain}}/news.html"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 50.0%;  "><p class="navs" style="font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 1.25vw;
+  
+  /* identical to box height */
+  user-select: none;
+  
+  color: #FFFFFF;">Дошка оголошень</p></a>
+
+   
+  
+
+</section>
+<div style="background: #5B1818;
+/* light green */
+
+border: 1px solid #E3E8E4;
+border-radius: 15px;
+/* light green */
+position: relative;
+
+height: 8%;
+width: 90%;
+margin-left: 4.8%;
+margin-top: 2%;">
+<a href="/attention.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 13.5%;  "><p class="navs" style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1.0vw;
+line-height: 1.25vw;
+
+/* identical to box height */
+user-select: none;
+
+color: #FFFFFF;">Надзвичайна ситуація</p></a>
+
+<a href="/youth-against-war.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 34%;  "><p class="navs" style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 1.0vw;
+line-height: 1.25vw;
+
+/* identical to box height */
+user-select: none;
+
+color: #FFFFFF;">Молодь проти війни!!!</p></a>
+<a href="/prevention.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 53.5%;  "><p class="navs" style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 1.0vw;
+line-height: 1.25vw;
+
+/* identical to box height */
+user-select: none;
+white-space: nowrap;
+color: #FFFFFF;">Профілактика COVID-19</p></a>
+
+<a href="/gymnasium-day.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 73%;  "><p class="navs" style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 1.0vw;
+line-height: 1.25vw;
+
+/* identical to box height */
+user-select: none;
+white-space: nowrap;
+color: #FFFFFF;">День Гімназії</p></a>
+
+</div>
+<main style="background: url(static/img/image\ 19.png) ; height: 53%; position: relative; background-size: cover; margin-top: 3.7%; text-align: center; vertical-align: middle;">
+    <div style="position: absolute; top: -3.2%; height: 7.8%; width: 120%; background: #F6DCD8; left: -2%;
+    filter: blur(0.75vw);"></div>
+    <div style="position: absolute; top: 95%; height: 7.8%; width: 120%; background: #F6DCD8; left: -2%;
+    filter: blur(0.5vw);"></div>
+    <h2 style="font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+  line-height: 3vw;
+    text-align: center;
+    padding-top: 10%;
+    color: #FFFFFF;">Увага!!! <br>
+        Алгоритм дій під час небезпечних ситуаціях!</h2>
+</main>
+<h3 style="font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 300%;
+line-height: 300%;
+/* identical to box height */
+
+text-align: center;
+margin-top: 1%;
+color: #541010;">Що робити після отримання сигналу <strong>«УВАГА ВСІМ»</strong></h3>
+<p style="font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 250%;
+line-height: 120%;
+margin-left: 7.5%;
+max-width: 85%;
+color: #541010;">&nbsp;Якщо ви почули звуки сирен, переривчасті гудки підприємств або звуки гучномовця, що тривають протягом кількох хвилин, це означае попереджувальний сигнал <strong>«УВАГА ВСІМ»</strong></p>
+
+<div style="border: 3px solid #541010;
+border-radius: 30px;
+max-width: 79.2%;
+min-height: 8%;
+margin-left: 9.6%;margin-top: 2%;
+text-align: center;
+"><span style="font-family: 'PT Serif';
+font-style: normal;
+font-weight: 500;
+font-size: 320%;
+line-height: 200%;
+
+
+color: #541010;">ЩО ТРЕБА РОБИТИ, ПОЧУВШИ ТАКИЙ СИГНАЛ?</span></div>
+<div style="width: 86.4%; margin-left: 7.5%; position: relative; margin-top: 3%;">
+<img src="static/img/Polygon 3.svg" style=" width: 5.8%;" alt="">
+<span style="font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 10vw;
+
+/* identical to box height */
+top: -10%;
+left: 9%;
+position: absolute;
+
+color: #541010;">01</span>
+<p style="position: absolute; font-family: 'PT Serif';
+font-style: normal;
+
+font-size: 2.5vw;
+line-height: 2.75vw;
+max-width: 73%;
+top: 15%;
+left: 23%;
+color: #5B1818;">
+  <strong>Увімкніть телебачення або радіо:</strong> інформація передається офіційними каналами протягом 5 хвилин після сигналу.
+
+</p>
+
+</div>
+
+<div style="width: 86.4%; margin-left: 7.5%; position: relative; margin-top: 0%;">
+  <img src="static/img/Polygon 3.svg" style=" width: 5.8%;" alt="">
+  <span style="font-family: 'PT Serif';
+  font-style: normal;
+
+  font-size: 10vw;
+  
+  /* identical to box height */
+  top: -10%;
+  left: 9%;
+  position: absolute;
+  
+  color: #541010;">02</span>
+  <p style="position: absolute; font-family: 'PT Serif';
+  font-style: normal;
+  
+  font-size: 2.5vw;
+  line-height: 2.75vw;
+  max-width: 73%;
+  top: 15%;
+  left: 23%;
+  color: #5B1818;">
+  <strong>Уважно! Зосередьтесь.</strong> Прослухавши повідомлення, виконуйте інструкції.
+  
+  </p>
+  
+  </div>
+
+  <div style="width: 86.4%; margin-left: 7.5%; position: relative; margin-top: 0%; ">
+    <img src="static/img/Polygon 3.svg" style=" width: 5.8%;" alt="">
+    <span style="font-family: 'PT Serif';
+    font-style: normal;
+    
+    font-size: 10vw;
+    
+    /* identical to box height */
+    top: -10%;
+    left: 9%;
+    position: absolute;
+    
+    color: #541010;">03</span>
+    <p style="position: absolute; font-family: 'PT Serif';
+    font-style: normal;
+    
+    font-size: 2.5vw;
+    line-height: 2.75vw;
+    max-width: 73%;
+    top: 15%;
+    left: 23%;
+    color: #5B1818;">
+  <strong>Пильнуйте!</strong> Залишайте теле- і радіоканали увімкненими через них може надходити подальша інформація.
+    
+    </p>
+    
+    </div>
+
+
+    <div style="background: rgba(152, 30, 30, 0.44);
+    border: 3px solid #541010;
+    border-radius: 30px;
+    width: 85.4%;
+    height: 63%;
+    margin-left: 7.5%;
+    margin-top: 5.5%;
+    position: relative;">
+      <p style="font-family: 'PT Serif';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 3vw;
+      padding-left: 10%;
+      line-height: 3vw;
+      text-align: center;
+      max-width: 50%;
+      position: relative;
+      top: 10%;
+      color: #541010;">У РАЗІ НАДЗВИЧАЙНОЇ 
+        СИТУАЦІЇ АБО ВІЙНИ</p>
+    <p style="font-family: 'PT Serif';
+    font-style: normal;
+    
+    font-size: 2.2vw;
+    line-height: 2.5vw;
+    max-width: 60%;
+    margin-left: 3.5%;
+    margin-top: 4.5%;">
+    <strong>112</strong> - Єдиний номер виклику екстрених оперативних служб. Зателефонуйте за цим номером, і диспетчер викличе бригаду потрібної служби
+    <br>
+   <strong>101</strong> - Пожежна служба
+    <br>
+ <strong>102 </strong>- Поліція
+    <br>
+    
+   <strong>103</strong> - Швидка медична допомога
+    <br>
+  <strong>104</strong> - Аварійна служба газової мережі
+
+    </p>
+    <img src="static/img/image 20.svg" style="position: absolute; width: 25%; top: 6%; left: 66%;" alt="">
+    </div>
+    <div style="position: relative; height: 105%; margin-left: 3%;">
+      <img src="static/img/стрелка.svg" style="padding-left: 21%; width: 70vw;" alt="">
+      <p style="font-size: 5vw; color: #541010;font-family: 'PT Serif'; max-width: 40%;
+      font-style: normal; line-height: 5.5vw;
+      padding-left: 10.8%;">ВАЖЛИВО! ПАМ’ЯТАЙТЕ!</p>
+      <img src="static/img/Linked Path Group.svg" style="width: 30vw; position: absolute; left: 55%; top: 20%;" alt="">
+    </div>
+
+    <div style="background: rgba(152, 30, 30, 0.44);
+    border: 3px solid #541010;
+    border-radius: 30px;
+    width: 85.4%;
+    height: 66.4%;
+    margin-left: 7%;
+    margin-top: -10%;
+    position: relative;"
+    >
+    <img src="static/img/image 21.png" style="width: 30%; margin-top: 3%; margin-left: 4.9%;" alt="">  
+    <p style="font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    max-width: 24%;
+    margin-left: 4.9%;
+    margin-top: 4%;
+    color: #541010;">НЕ ТОРКАТИСЯ ПІДОЗРІЛОГО ПРЕДМЕТА ЗАБОРОНЕНО!</p>
+    <img src="static/img/icons8-не-трогать-50 1.svg" style="width: 10%; position: absolute; top: 58%; left: 27%;" alt="">
+    <img src="static/img/Line 5.svg" style="position: absolute; left: 39%; height: 100%; top: 0;" alt="">
+    <img src="static/img/Line 6.png" style="left: 39%; top: 50%; position: absolute; width: 60.7%;" alt="">
+    <p style="max-width: 44%;font-style: normal;
+    font-weight: 400;
+    font-size: 2.25vw;
+    line-height: 2.5vw;
+    position: absolute;
+    top: 13%;
+    left: 41%;
+    font-family: 'PT Serif';
+
+    color: #541010; ">НЕ ВИКОРИСТОВУЙТЕ ПОРУЧ ЗАСОБИ РАДІОЗВ’ЯЗВУ ТА ТЕЛЕФОНИ! </p>
+    <img src="static/img/icons8-без-мобильных-устройств-50 1.svg" style="width: 10.9%; position: absolute; top: 10%; left: 85%;" alt="">
+    <p style="max-width: 55%;font-style: normal;
+    font-weight: 400;
+    font-size: 2.25vw;
+    line-height: 2.5vw;
+    position: absolute;
+    top:56%;
+    left: 41%;
+    font-family: 'PT Serif';
+
+    color: #541010; ">УДАР, СТРУС, ТЕРТЯ ТА НАГРІВАННЯ МОЖУТЬ СПРИЧИНИТИ ВИБУХ!</p>
+  <img src="static/img/icons8-прямой-удар-50 1.svg" style="width: 9%; position: absolute; left: 60.5%; top: 75%;" alt="">
+  <img src="static/img/icons8-термометр-50 1.svg" style="width: 7%; position: absolute; left: 72%; top: 75%; ;" alt="">
+
+  </div>
+
+
+  <div style="position: relative; height: 80%; margin-top: 7%;">
+  <img src="static/img/Linked Path Group.png" style="width: 30vw; position: absolute; top: 2%; left: 12%;" alt="">
+  <img src="static/img/стрелка.png" style="position: absolute; top: -10%; left: 35%; width: 40vw;" alt="">
+  <p style="position: absolute; font-size: 4.5vw; color: #541010;font-family: 'PT Serif';
+  font-style: normal;line-height: 5vw;
+  max-width: 45%;
+  left: 50%;
+  top: 35%;">НЕБЕЗПЕКА ВІД<br> МІН ТА СНАРЯДІВ</p>
+  </div>
+  <div style="background: rgba(152, 30, 30, 0.44);
+  border: 3px solid #541010;
+  border-radius: 30px;
+  width: 85.4%;
+  height: 66.4%;
+  margin-left: 7.2%;
+  position: relative;
+  margin-top: -7%;">
+  <img src="static/img/image 22.png" style="width: 30%; margin-top: 3%; margin-left: 4.9%;" alt="">  
+  <p style="font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 2.5vw;
+  max-width: 32.6%;
+  margin-left: 3.5%;
+  margin-top: 3%;
+text-align: center;
+  color: #541010;">У ЖОДНОМУ РАЗІ НЕ<br>
+ ХОДІТЬ У ТАКІ <br>
+МІСЦЯ:</p>
+  <img src="static/img/Line 5.svg" style="position: absolute; left: 39%; height: 100%; top: 0;" alt="">
+  <span  style="font-family: 'PT Serif';
+  font-style: normal;
+  
+  font-size: 5vw;
+  position: absolute;
+  left: 42%;
+  top: 2%;
+  /* identical to box height */
+
+  
+  color: #541010;">01</span>
+  <p style="font-family: 'PT Serif';
+  font-style: normal;
+  
+  font-size: 2.5vw;
+  position: absolute;
+  left: 50.4%;
+  top: 7%;
+  /* identical to box height */
+
+  
+  color: #541010;">На ВОДОЙМИ та ГОРОДИ</p>
+  <img src="static/img/Line 6.png" style="left: 39%; top: 26%; position: absolute; width: 60.7%;" alt="">
+  <span  style="font-family: 'PT Serif';
+  font-style: normal;
+  
+  font-size: 5vw;
+  position: absolute;
+
+  top: 27%;
+  /* identical to box height */
+
+  left: 42%;
+  color: #541010;">02</span>
+  <p style="font-family: 'PT Serif';
+  font-style: normal;
+  
+  font-size: 2.5vw;
+  position: absolute;
+  left: 50.4%;
+  top: 32%;
+  /* identical to box height */
+
+  
+  color: #541010;">До ЛІСУ та в ПОЛЕ</p>
+  <img src="static/img/Line 6.png" style="left: 39%; top: 52%; position: absolute; width: 60.7%;" alt="">
+
+
+  <span  style="font-family: 'PT Serif';
+  font-style: normal;
+  
+  font-size: 5vw;
+  position: absolute;
+  left: 42%;
+  top: 52%;
+  /* identical to box height */
+
+  
+  color: #541010;">03</span>
+  <p style="font-family: 'PT Serif';
+  font-style: normal;
+  max-width: 40%;
+  font-size: 2.5vw;
+  position: absolute;
+  left: 50.4%;
+  top: 56%;
+  /* identical to box height */
+
+  line-height: 2.75vw;
+  color: #541010;">Уникайте РУЇНИ та ділянки, 
+які ще не розміновані!</p>
+  <img src="static/img/Line 6.png" style="left: 39%; top: 77%; position: absolute; width: 60.7%;" alt="">
+
+
+
+  <span  style="font-family: 'PT Serif';
+  font-style: normal;
+  
+  font-size: 5vw;
+  position: absolute;
+  left: 42%;
+  top: 77%;
+  /* identical to box height */
+
+  
+  color: #541010;">04</span>
+  <p style="font-family: 'PT Serif';
+  font-style: normal;
+  max-width: 40%;
+  font-size: 2.5vw;
+  position: absolute;
+  left: 50.4%;
+  top: 79.5%;
+  /* identical to box height */
+
+  line-height: 2.75vw;
+  color: #541010;">Проінформуйне дитину про небезпеку завчасно</p>
+
+  </div>
+
+<h3 style="font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 400%;
+margin-top: 3%;
+  /* identical to box height */
+    text-align: center;
+  
+  color: #541010;">Що робити?</h3>
+  
+  <div style="background: #5B1818;
+  border-radius: 30px;
+  max-width: 50%;
+  min-height: 8.4%;
+  margin-left: 25%;
+  text-align: center;">
+    <h2 style="font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 320%;
+    line-height: 200%;
+    color: #FFFFFF;">ЛУНАЄ ТРИВОЖНА СИРЕНА</h2>
+
+  </div>
+
+  <p style="font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 250%;
+  line-height: 120%;
+  margin-left: 7.5%;
+  margin-top: 2.6%;
+  max-width: 85%;
+  color: #541010;">&nbsp; ЯКЩО ВИ ПЕРЕБУВАЄТЕ НАДВОРІ, ПРО НАДЗВИЧАЙНУ СИТУАЦІЮ ВАМ ПОВІДОМЛЯТЬ ЧЕРЕЗ:</p>
+
+  <div style="position: relative; height: 11%;">
+    <img src="static/img/icons8-внимание-50 (1) 1.png" style="width: 4%; position: absolute; left: 7.2%;" alt="">
+    <p style="position: absolute; font-family: 'PT Serif';
+    font-style: normal;
+    
+    font-size: 250%;
+    line-height: 120%;
+    max-width: 73.4%;
+    left: 12%;">Гучномовець (е у місцях масового скупчення людей) та інфотабло (екрани торгових центрів, рухомий рядок);</p>
+  </div>
+
+  <div style="position: relative; height: 11%;margin-top: 1.5%;">
+    <img src="static/img/icons8-внимание-50 (1) 1.png" style="width: 4%; position: absolute; left: 7.2%;" alt="">
+    <p style="position: absolute; font-family: 'PT Serif';
+    font-style: normal;
+    top: 10%;
+    font-size: 250%;
+    line-height: 120%;
+    max-width: 73.4%;
+    left: 12%;">Сирени, переривчасті гудки інших сигнальних засобів.</p>
+  </div>
+
+  <p style="font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 300%;
+  line-height: 100%;
+  max-width: 80%;
+  margin-left: 7.2%;
+  color: #5B1818;"> &nbsp;&nbsp;Якщо не працює міська телефонна мережа, немає інтернету 
+    чи мобільного зв'язку, орієнтуйтеся на інформацію з вуличних гучномовців.</p>
+
+   
+    
+    <footer class="subfooter" style="background: #F2C7C7;position: relative; margin-top: 7%;">
+      <img src="static/img/image_2023-02-12_17-46-10 1 (1).png" style="position: absolute;
+      border-radius: 103px;
+      width: 10.7%;
+      left: 7.2%;
+      top: 30%;
+      user-select: none;
+      
+        ;" alt="">
+       <span style="font-family: 'Playfair Display';
+       white-space: nowrap;
+        max-width: 31.5%;
+       font-style: normal;
+       font-weight: 400;
+       font-size: 2vw;
+       line-height: 2.25vw;
+       position: absolute;
+       left: 18.3%;
+       top: 35%;
+       user-select: none;
+       color: #981E1E;
+       ">ОЗ "Спеціалізована загальноосвітня<br> школа-інтернат "Болградська гімназія<br> ім. Г.С. Раковського"</span>  
+      <div style="font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1vw;
+      line-height: 1.25vw;
+      position: absolute;
+      top: 75%;
+      white-space: nowrap;
+      left: 18%;
+      max-width: 24%;
+      user-select: none;
+      color: #981E1E;">Дизайн та розробка: Желяскова Валерія та Жолтов Юрій  </div>
+    
+
+
+<img src="static/img/icons8-список-звонков-50 2 (2).png" style="width: 2.6%;position: absolute;
+ top: 30%;
+  
+  left: 53%;" alt="">
+
+    <a href="tel:+380484641307" style="position: absolute; font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75vw;
+       line-height: 1.55vw;
+    position: absolute;
+    top: 33%;
+  
+    left: 56%;
+    max-width: 24%;
+    user-select: none;
+    color: #981E1E;">(04846)41307</a>
+    
+    <div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 45%;*"></div>
+
+
+
+    <img src="static/img/icons8-google-карты-24 2.png" style="width: 2.1%;position: absolute;
+ top: 45.75%;
+  
+  left: 53.25%;" alt="">
+
+    <address style="position: absolute; font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75vw;
+       line-height: 1.55vw;
+    position: absolute;
+    top: 48%;
+  
+    left: 56%;
+    max-width: 24%;
+    user-select: none;
+    color: #981E1E;">вул. Училищна, Болград</address>
+    
+    <div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 60%;*"></div>
+    
+    
+    <img src="static/img/icons8-сообщение-с-заливкой-30 2.png" style="width: 2.2%;position: absolute;
+ top: 62.75%;
+  
+  left: 53.25%;" alt="">
+
+    <address style="position: absolute; font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75vw;
+       line-height: 1.55vw;
+    position: absolute;
+    top: 63%;
+  
+    left: 56%;
+    max-width: 24%;
+    user-select: none;
+    color: #981E1E;">gimnaziya_bol@ukr.net</address>
+    
+    <div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 75%;*"></div>
+    
+    
+    <a href="" style="">
+      <img src="static/img/icons8-instagram-50 1.png" style="width: 3.2%; position: absolute; top: 37%; left: 75.5%;" alt="">
+
+    </a>
+    
+    <a href="" style="">
+      <img src="static/img/icons8-facebook-50 1.png" style="width: 3.15%; position: absolute; top: 55%; left: 75.5%;" alt="">
+
+    </a>
+    
+    <img src="static/img/image 1.png" style="width: 23%; position: absolute; top: 10%; left: 78%;" alt="">
+    
+      
+      <div style="
+      background: #F2C7C7;
+      filter: blur(15px);
+      height: 20%;
+      position: absolute;
+      top: -15%;
+      width: 105%;"></div>
+    
+    </footer>
+
+</body>
+</html>

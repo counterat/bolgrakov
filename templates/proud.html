@@ -1,0 +1,391 @@
+    <!DOCTYPE html>
+    <html lang="en"style="overflow-y: visible;">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')  }}"  >
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style>
+        html,
+        body {
+        position: relative;
+        height: 100vh;
+        }
+    
+        body {
+            background: #F8EFD9;
+    
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        }
+    </style>
+    </head>
+    <body>
+        
+        <header  style="height: 15%; background: rgba(197, 158, 119, 0.69); width: 100%; position: relative; " >
+      
+       
+            
+            <img src="static/img/image_2023-02-12_17-46-10 1 (1).png"  style="margin-top: 0.65%; margin-left: 13%; width: 6%; user-select: none;">
+          
+          
+            <h1 id="title">ОЗ "Спеціалізована загальноосвітня школа-інтернат<br>"Болградська гімназія ім. Г.С. Раковського"</h1>
+          
+        
+        </header>
+        <section class="subheader" style="height: 7%; position: relative;">
+          <a href="{{domain}}" style="position: absolute; top: 10%; padding-top: 0.5%; left: 13.2%;  "><p class="navs" style="font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1vw;
+            line-height: 1.25vw;
+            
+            /* identical to box height */
+            user-select: none;
+            
+            color: #FFFFFF;">Головна</p></a>
+            <a href="{{domain}}/history.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 20.0%;  "><p class="navs" style="font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 1vw;
+              line-height: 1.25vw;
+              
+              /* identical to box height */
+              user-select: none;
+              
+              color: #FFFFFF;">Про заклад</p></a>
+              <a href="{{domain}}/attention.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 28.2%;  "><p class="navs" style="font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1vw;
+                line-height: 1.25vw;
+                
+                /* identical to box height */
+                user-select: none;
+                
+                color: #FFFFFF;">Новини</p></a>
+                
+        
+        <a href="https://nz.ua/school/wall?id=22336"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 35.0%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Електронний щоденник</p></a>
+        <a href="{{domain}}/news.html"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 50.0%;  "><p class="navs" style="font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1vw;
+          line-height: 1.25vw;
+          
+          /* identical to box height */
+          user-select: none;
+          
+          color: #FFFFFF;">Дошка оголошень</p></a>
+        
+           
+          
+        
+        </section>
+        
+        <div style="background: #785338;
+        /* light green */
+        position: relative;
+        border: 1px solid #E3E8E4;
+        border-radius: 15px;
+        height: 8%;
+        width: 90%;
+        margin-left: 4.8%;
+        margin-top: 2%;">
+        <a href="{{domain}}/history.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 20.2%;  "><p class="navs" style="font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.0vw;
+          line-height: 1.25vw;
+          
+          /* identical to box height */
+          user-select: none;
+          
+          color: #FFFFFF;">Історія</p></a>
+        
+        <a href="{{domain}}/primary.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 30.5%;  "><p class="navs" style="font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.0vw;
+          line-height: 1.25vw;
+          
+          /* identical to box height */
+          user-select: none;
+          
+          color: #FFFFFF;">Початкова школа</p></a>
+          <a href="{{domain}}/high-school.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 46.5%;  "><p class="navs" style="font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.0vw;
+            line-height: 1.25vw;
+            
+            /* identical to box height */
+            user-select: none;
+            white-space: nowrap;
+            color: #FFFFFF;">Середня та старша школа</p></a>
+  
+  <a href="{{domain}}/proud.html" style="position: absolute; top: 10%; padding-top: 0.75%; left: 67.5%;  "><p class="navs" style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.0vw;
+    line-height: 1.25vw;
+    
+    /* identical to box height */
+    user-select: none;
+    white-space: nowrap;
+    color: #FFFFFF;">Гімназія пишається</p></a>
+  
+        </div>
+
+
+
+
+        <main style="position: relative; margin-top: 0%;" >
+          <div style="position: relative; margin-top: 3%;"><h2 style="font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 3rem;
+            /* identical to box height */
+            position: absolute;
+
+  transform: translateX(-50%);
+          left: 50%;
+
+            color: #422712;">
+                Наші досягнення
+            </h2></div>
+            
+            <p style="font-family: 'PT Serif';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 2.2rem;
+            line-height: 2.5rem;
+           padding-top: 5%;
+               max-width: 88.5%;
+            margin-left: 7.2%;
+            color: #422712;
+            ">
+               &nbsp; Школа пишається своїми учнями, які мають бажання брати участь в олімпіадах. Вчителі підтримують ініціативу дітей, проте ми не працюємо на штучне збільшення показника кількості переможців олімпіад.
+            </p>
+            <div class="video" style=" position: relative; left: 50%; margin-top: 0%; ">
+                <iframe style="margin-left: -15%;" width="54%" height="450vh" src="https://www.youtube.com/embed/x_iaEqCnVBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div style="font-family: 'PT Serif';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2.2rem;
+                line-height: 2.5rem;
+                position: absolute;
+                left: -43%;
+                top: 5%;
+               max-width: 26%;
+          
+                
+                color: #422712;"> &nbsp; Ми розвиваємо високий потенціал, природну схильність та зацікавленість дітей у змаганнях. Досягнення наших учнів ґрунтуються на тих знаннях, які вони отримують під час навчання у школі.</div>
+            </div>
+
+
+            <div class="video" style=" position: relative; left: 7.2%; margin-top: 5%; ">
+                <iframe style="" width="54%" height="450vh"  src="https://www.youtube.com/embed/S7o93JAq_44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p style="font-family: 'PT Serif';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2.2rem;
+                line-height: 2.5rem;
+                position: absolute;
+                left: 56.5%;
+                top: 10%;
+                max-width: 25%;
+                color: #422712;"> &nbsp; Наші викладачі є членами журі міських олімпіад. Вони можуть допомогти визначитись з напрямком розвитку для кожного учня, який прагне досягати успіхів у олімпіадах.</p>
+            </div>
+        </main>
+
+        <div class="swiper-container mySwiper" style="margin-top: 3%;">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="margin-left: 1.5%; width: 25%; height: 70%;"><img class="img-carousel" src="static/img/skorich.png" alt=""></div>
+            <div class="swiper-slide" style="width: 50%;height: 70%;"><img class="img-carousel" src="static/img/341283285_198630872879194_5662212994512449789_n.jpg" alt=""></div>
+            <div class="swiper-slide" style="width: 50%;height: 70%;"><img class="img-carousel" src="static/img/9а5.jpg" alt=""></div>
+            <div class="swiper-slide" style="width: 50%;height: 70%;"><img class="img-carousel" src="static/img/337650735_1232155644087771_7558832278960699388_n.jpg" alt=""></div>
+            <div class="swiper-slide" style="width: 50%;height: 70%;"><img class="img-carousel" src="static/img/337528879_949606582735840_3665720456367372006_n.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+        
+        
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 'auto',
+              spaceBetween: 30,
+              freeMode: true,
+              
+              
+              
+            });
+            
+        
+          </script>
+        <footer class="subfooter" style="background: #E9CFB4; margin-top: -8%; position: relative;">
+            <img src="static/img/image_2023-02-12_17-46-10 1 (1).png" style="position: absolute;
+            border-radius: 103px;
+            width: 10.7%;
+            left: 7.2%;
+            top: 30%;
+            user-select: none;
+            
+              ;" alt="">
+             <span style="font-family: 'Playfair Display';
+             white-space: nowrap;
+              max-width: 31.5%;
+             font-style: normal;
+             font-weight: 400;
+             font-size: 2vw;
+             line-height: 2.25vw;
+             position: absolute;
+             left: 18.3%;
+             top: 35%;
+             user-select: none;
+             color: #422712;
+             ">ОЗ "Спеціалізована загальноосвітня<br> школа-інтернат "Болградська гімназія<br> ім. Г.С. Раковського"</span>  
+            <div style="font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1vw;
+            line-height: 1.25vw;
+            position: absolute;
+            top: 75%;
+            white-space: nowrap;
+            left: 18%;
+            max-width: 24%;
+            user-select: none;
+            color: #422712;">Дизайн та розробка: Желяскова Валерія та Жолтов Юрій  </div>
+          
+      
+      
+      <img src="static/img/icons8-список-звонков-50 1.png" style="width: 2.6%;position: absolute;
+       top: 30%;
+        
+        left: 53%;" alt="">
+      
+          <a href="tel:+380484641307" style="position: absolute; font-family: 'Playfair Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.75vw;
+             line-height: 1.55vw;
+          position: absolute;
+          top: 33%;
+        
+          left: 56%;
+          max-width: 24%;
+       
+          color: #422712;">(04846)41307</a>
+          
+          <div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 45%;*"></div>
+      
+      
+      
+          <img src="static/img/icons8-google-карты-24 1.png" style="width: 2.1%;position: absolute;
+       top: 45%;
+        
+        left: 53%;" alt="">
+      
+          <address style="position: absolute; font-family: 'Playfair Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.75vw;
+             line-height: 1.55vw;
+          position: absolute;
+          top: 48%;
+        
+          left: 56%;
+          max-width: 24%;
+          user-select: none;
+          color: #422712;">вул. Училищна, Болград</address>
+          
+          <div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 60%;*"></div>
+          
+          
+          <img src="static/img/icons8-сообщение-с-заливкой-30 1.png" style="width: 2.2%;position: absolute;
+       top: 62%;
+        
+        left: 53%;" alt="">
+      
+          <address style="position: absolute; font-family: 'Playfair Display';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.75vw;
+             line-height: 1.55vw;
+          position: absolute;
+          top: 63%;
+        
+          left: 56%;
+          max-width: 24%;
+          user-select: none;
+          color: #422712;">gimnaziya_bol@ukr.net</address>
+          
+          <div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 75%;*"></div>
+          
+          
+          <a href="" style="">
+            <img src="static/img/icons8-instagram-30 (1) 1.png" style="width: 3.2%; position: absolute; top: 37%; left: 75.5%;" alt="">
+      
+          </a>
+          
+          <a href="" style="">
+            <img src="static/img/icons8-facebook-24 1.png" style="width: 2.5%; position: absolute; top: 55%; left: 75.9%;" alt="">
+      
+          </a>
+          
+          <img src="static/img/image 1.png" style="width: 23%; position: absolute; top: 10%; left: 78%;" alt="">
+          
+            
+            <div style="
+            background: #E9CFB4;
+            filter: blur(0.5vw);
+            height: 20%;
+            position: absolute;
+            top: -15%;
+            width: 105%;"></div>
+          
+          </footer>
+    </body>
+    </html>

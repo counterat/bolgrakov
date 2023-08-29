@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ru" style="overflow-x: hidden;" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')  }}">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style>
+  html,
+  body {
+    position: relative;
+    height: 100vh;
+  }
+
+  body {
+    background: #F1D8BE;
+border: 1px solid #000000;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide img{
+    width: 50%;
+    object-fit: cover;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #F1D8BE;
+
+    /* Center slide text vertically */
+   
+    justify-content: center;
+   
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+
+</head>
+<body>
+  
+  <header  style="height: 15%; background: rgba(197, 158, 119, 0.69); width: 100%; position: relative; " >
+      
+       
+            
+    <img src="static/img/image_2023-02-12_17-46-10 1 (1).png"  style="margin-top: 0.65%; margin-left: 13%; width: 6%; user-select: none;">
+  
+  
+
+    <h1 id="title">ОЗ "Спеціалізована загальноосвітня школа-інтернат<br>"Болградська гімназія ім. Г.С. Раковського"</h1>
+    
+    
+    
+</header>
+<section class="subheader" style="height: 7%; position: relative;">
+  <a href="{{domain}}" style="position: absolute; top: 10%; padding-top: 0.5%; left: 13.2%;  "><p class="navs" style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+    line-height: 1.25vw;
+    
+    /* identical to box height */
+    user-select: none;
+    
+    color: #FFFFFF;">Головна</p></a>
+    <a href="{{domain}}/history.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 20.0%;  "><p class="navs" style="font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1vw;
+      line-height: 1.25vw;
+      
+      /* identical to box height */
+      user-select: none;
+      
+      color: #FFFFFF;">Про заклад</p></a>
+      <a href="{{domain}}/attention.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 28.2%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Новини</p></a>
+        
+
+<a href="https://nz.ua/school/wall?id=22336"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 35.0%;  "><p class="navs" style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 1vw;
+line-height: 1.25vw;
+
+/* identical to box height */
+user-select: none;
+
+color: #FFFFFF;">Електронний щоденник</p></a>
+<a href="{{domain}}/news.html"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 50.0%;  "><p class="navs" style="font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 1.25vw;
+  
+  /* identical to box height */
+  user-select: none;
+  
+  color: #FFFFFF;">Дошка оголошень</p></a>
+
+   
+  
+
+</section>
+  <main style="background: url(static/img/щк\ 1.png) center center no-repeat;
+  height: 85%;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  ">
+    <span style="white-space: nowrap;
+    font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 3vw;
+line-height: 3.25vw;
+position: absolute;
+left: 12.8%;
+top: 33.7%;
+color: #FFFFFF;
+
+    ">
+      ОЗ "Болградська гімназія<br>
+ім. Г.С. Раковського" - місце, де<br> починається блискуче майбутнє!
+    </span>
+    <button type="button" class="btn btn-danger" style="background: linear-gradient(88.49deg, #981E1E 3.16%, #541010 97.16%);
+    box-shadow: 0px 0px 80px #541010;
+    border-radius: 16px;
+    
+    border-color: transparent;
+    background-clip: padding-box;
+    min-width: 18.5%;
+    min-height: 8%;
+    position: absolute;
+    top: 60%;
+    left: 12.75%;">
+  <a href="/news.html" style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFFFFF;">
+    Дізнатися актуальні новини
+  </a>
+</button>
+
+</button>
+
+    <div style="background: #EABD8D;
+    filter: blur(0.5vw);
+    width: 120%;
+    position: absolute;
+    top: 98%;
+    left: -2%;
+    height: 14.6%;"></div>
+     
+  </main>
+  <section style="position: relative; background: url(static/img/1642756796_96-phonoteka-org-p-fon-korichnevii-gradient-98\ 1.png) center center no-repeat;
+  background-size: cover;
+  height: 60%; ">
+  <h2 style="font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5vw;
+  line-height: 3vw;
+  /* or 113% */
+  position: absolute;
+  left: 17.3%;
+  top: 20%;
+  text-align: center;
+  
+ ">
+    Гімназія - перший болгарський загальноосвітній навчальний<br>
+    заклад, перлина Бессарабії, центр просвіти,<br>
+    науково-методичної діяльності та національно-патріотичного<br>
+    виховання. Гімназія осередок інтелекту, співробітництва,<br>
+    творчого натхнення, зростання та визнання. <br>
+    Гімназія - це школа Майбутнього!<br>
+
+  </h2>
+ 
+
+  <div style="background: #E3B787;
+     filter: blur(0.5vw);
+     width: 120%;
+       position: absolute;
+       top: 90%;
+       height: 20%;
+       left: -2%;"></div>
+  </section>
+  <section style="height: 170%; margin-top: 10%; position: relative;">
+    <button style="background: rgba(151, 22, 22, 0.12);
+    border: 0.2vw solid #981E1E;
+    min-width: 35%;
+    min-height: 7%;
+    position: relative;
+    
+    margin-left: 32.5%;
+    border-radius: 50px;" type="button" class="btn btn-danger"><span style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+padding-top: 10%;
+font-size: 2.25vw;
+
+/* identical to box height, or 138% */
+
+
+
+
+color: #5B1818;">Коротко про головне</span></button>
+<div class="card" style="max-width: 29.1%;background: rgba(151, 22, 22, 0.12);
+border: 0.2vw solid #981E1E;
+border-radius: 3vw;
+min-height: 25%;
+position: absolute;
+left: 4.5%
+;
+margin-top: 4%;">
+    <button style="max-width: 90% ; background: #981E1E;
+    border-radius: 3vw;
+    border-color: transparent;
+    position: relative;
+    top: 7.2%;
+    left: 4.2%;
+    height: 10vh;
+    margin-top: 6.5%;" >
+    <img src="static/img/icons8-время-вышло-50 1.png" style="width: 13.5%; position: absolute; left: 7%; top: 15%;" alt="">
+    <span style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75vw;
+    line-height: 1.75wv;
+    /* identical to box height, or 168% */
+    
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    
+    color: #FFFFFF;">Рік заснування</span>
+
+
+
+
+</button>
+<p style="font-family: 'Open Sans';
+font-style: normal;
+
+font-size: 1.25vw;
+line-height: 1.75vw;
+margin-left: 4.2%;
+max-width: 91%;
+margin-top: 3%;
+
+color: #5B1818;">  У <strong>1858</strong> році в місті відкрилось училище, яке вже <strong>1 травня 1859</strong> було реорганізовано у <strong>гімназію імені Кирила і Мефодія.</strong> Першим директором гімназії став болгарський вчитель <strong>Савва Радулов.</strong></p>
+</div>
+
+
+<div class="card" style="max-width: 29.1%;background: rgba(151, 22, 22, 0.12);
+border: 0.2vw solid #981E1E;
+border-color: #981E1E;
+border-radius: 3vw;
+min-height: 25%;
+position: absolute;
+left: 35.5%
+;
+margin-top: 4%;">
+    <button style="max-width: 90% ; background: #981E1E;
+    border-radius: 3vw; border-color: transparent;
+    position: relative;
+    top: 7.2%;
+    left: 4.2%;
+    height: 10vh;
+    margin-top: 6.5%;" >
+    <img src="static/img/icons8-стрелка-часов-64 1.png" style="width: 13.5%; position: absolute; left: 4%; top: 15%;" alt="">
+    <span style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75vw;
+    line-height: 1.75wv;
+    /* identical to box height, or 168% */
+    
+    position: absolute;
+    left: 19%;
+    top: 20%;
+    
+    color: #FFFFFF;">Болгарське майбутнє</span>
+
+
+
+
+</button>
+<p style="font-family: 'Open Sans';
+font-style: normal;
+
+font-size: 1.25vw;
+line-height: 1.75vw;
+margin-left: 4.2%;
+max-width: 91%;
+margin-top: 3%;
+
+color: #5B1818;">  Між  <strong>Болгарією та Україною</strong> укладено низку договорів про співробітництво у сфері освіти, культури тощо. Зокрема, у договорі від <strong>1993</strong> року зазначено, що Болгарія  <strong>приймає на навчання дітей болгарського походження.</strong></p>
+</div>
+
+<div class="card" style="max-width: 29.1%;background: rgba(151, 22, 22, 0.12);
+border: 0.2vw solid #981E1E;
+border-radius: 3vw;
+min-height: 25%;
+position: absolute;
+left: 66.5%
+;
+margin-top: 4%;">
+    <button style="max-width: 90% ; background: #981E1E;
+    border-radius: 3vw;
+    position: relative;
+    top: 7.2%;
+    left: 4.2%;
+    height: 10vh; border-color: transparent;
+    margin-top: 6.5%;" >
+    <img src="static/img/icons8-подарок-50 2.png" style="width: 13.5%; position: absolute; left: 4%; top: 15%;" alt="">
+    <span style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75vw;
+    line-height: 1.75wv;
+    /* identical to box height, or 168% */
+    
+    position: absolute;
+    left: 19%;
+    top: 20%;
+    
+    color: #FFFFFF;">Безсмертні традиції</span>
+
+
+
+
+</button>
+<p style="font-family: 'Open Sans';
+font-style: normal;
+
+font-size: 1.25vw;
+line-height: 1.75vw;
+margin-left: 4.2%;
+max-width: 91%;
+margin-top: 3%;
+
+color: #5B1818;">  Болградська гімназія зберігає пам'ять про її творців і примножує традиції, закладені понад півтори сотні років тому. Насамперед, це стосується пам'ятних заходів, що проводяться в рамках щорічного <strong>Дня гімназії.</strong></p>
+</div>
+
+
+<div class="card" style="width: 45.0%;background: rgba(151, 22, 22, 0.12);
+  border: 0.2vw solid #981E1E;
+    border-radius: 3vw;
+    min-height: 28%;
+    position: absolute;
+    left: 4.5%
+    ;
+    top: 40%;
+    ">
+        <button style="max-width: 90% ; background: #981E1E;
+        border-radius: 3vw;
+        position: relative;
+        top: 7.2%;
+        left: 4.2%;
+        height: 10vh; border-color: transparent;
+        margin-top: 6.5%;" >
+        <img src="static/img/icons8-миссия-компании-50 1 (1).png" style="width: 10%; position: absolute; left: 4%; top: 5%;" alt="">
+        <span style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.75vw;
+        line-height: 1.75wv;
+        /* identical to box height, or 168% */
+        
+        position: absolute;
+        left: 19%;
+        top: 20%;
+        
+        color: #FFFFFF;">Місія</span>
+    
+    
+    
+    
+    </button>
+    <p style="font-family: 'Open Sans';
+    font-style: normal;
+    
+    font-size: 1.25vw;
+    line-height: 1.75vw;
+    margin-left: 4.2%;
+    max-width: 91%;
+    margin-top: 3%;
+    
+    color: #5B1818;">  Школа забезпечує освіту високого рівня у галузі  <strong>наук, мов та літератури,</strong> стимулюючи інтелектуальні здібності кожного учня так, щоб надати йому високі можливості для втілення своїх амбіцій у майбутньому. Наші випускники є бажаними студентами у найкращих вищих навчальних закладах світу.</p>
+    </div>
+
+    
+<div class="card" style="width: 45.0%;background: rgba(151, 22, 22, 0.12);
+border: 0.2vw solid #981E1E;
+border-radius: 3vw;
+min-height: 28%;
+position: absolute;
+left: 51%
+;
+top: 40%;
+">
+    <button style="max-width: 90% ; background: #981E1E;
+    border-radius: 3vw;
+    position: relative;
+    top: 7.2%;
+    left: 4.2%;
+    height: 10vh; border-color: transparent;
+    margin-top: 6.5%;" >
+    <img src="static/img/icons8-толпа-50 1.png" style="width: 10%; position: absolute; left: 4%; top: 5%;" alt="">
+    <span style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.75vw;
+    line-height: 1.75wv;
+    /* identical to box height, or 168% */
+    
+    position: absolute;
+    left: 19%;
+    top: 20%;
+    
+    color: #FFFFFF;">Колектив</span>
+
+
+
+
+</button>
+<p style="font-family: 'Open Sans';
+font-style: normal;
+
+font-size: 1.25vw;
+line-height: 1.75vw;
+margin-left: 4.2%;
+max-width: 91%;
+margin-top: 3%;
+
+color: #5B1818;">    Унікальним для школи є колектив викладачів, 
+кожен з яких є експертом і фанатом свого предмету. 
+Для максимального розвитку здібностей дітей вчителі 
+використовують авторські надбання на кожному уроці 
+На сайті можна ознайомитись з усією командою.</p>
+</div>
+ 
+
+
+<div style="background: #F1D8BE;
+    filter: blur(0.5vw);
+    width: 120%;
+       position: absolute;
+       top: 70%;
+       height: 10%;
+       z-index: 11;
+       left: -2%;"></div>
+  </section>
+  
+
+  <section  style="height: 90%; margin-top: -20%; background: #E2BF9D;"><div class="swiper-container mySwiper" >
+    
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="width: 100%; text-align: center; vertical-align: middle;" ><img class="img-carousel" src="static/img/Picsart_23-02-19_10-43-08-500.jpg" alt=""><span style="z-index: 12; position: absolute; top: 40%; left: 15%; font-family: 'PT Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        line-height: 2.75vw;
+        max-width: 65%;
+       
+        
+        color: #FFFFFF;
+        "> В усі часи ОЗ «Болградська гімназія ім. Г. С. Раковського» 
+        була флагманом освіти та виховання, про що свідчать 
+        численні нагороди та визнання громадськості. 
+        Навчальний заклад пройшов випробування часом та довів
+        свою конкурентоспроможність.</span></div>
+      <div class="swiper-slide"style="width: 30%;"><img class="img-carousel" src="static/img/305801066_691816005984223_3751469136345048081_n.jpg" alt=""></div>
+      <div class="swiper-slide"style="width: 60%;"><img class="img-carousel" src="static/img/312855718_737868791378944_8132264559231388652_n.jpg" alt=""></div>
+      <div class="swiper-slide" style="width: 70%;"><img class="img-carousel" src="static/img/313418528_740094787823011_2606210575768069445_n.jpg" alt=""></div>
+      <div class="swiper-slide"style="width: 70%;"><img class="img-carousel" src="static/img/314359621_737868728045617_8736899467201886863_n.jpg" alt=""></div>
+      <div class="swiper-slide"style="width: 50%;"><img class="img-carousel" src="static/img/284301613_5350960464965456_216363256615878276_n.jpg" alt=""></div>
+  
+      </div>
+    </div>
+  </div>
+  
+  
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        freeMode: true,
+        
+        
+        
+      });
+      
+  
+    </script></section>
+
+
+
+<section style="background: #E2BF9D;
+height: 34%;
+position: relative;
+">
+
+<span style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 2.2vw;
+line-height: 2.5vw;
+/* or 177% */
+
+position: absolute;
+left: 25%;
+top: 25%;
+align-items: center;
+text-align: center;
+
+color: #541010;">Приєднуйтесь до школи у соціальних мережах!
+</span>
+<a href="https://www.facebook.com/people/%D0%91%D0%BE%D0%BB%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F-%D0%B3%D0%B8%D0%BC%D0%BD%D0%B0%D0%B7%D0%B8%D1%8F-%D0%B8%D0%BC-%D0%93%D0%A1-%D0%A0%D0%B0%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE/100054674880271/" style=" position: absolute; top: 47%; left: 45%; "><img src="static/img/icons8-значки-facebook-в-форме-круга-50 1.png" style="width: 4.5vw;" alt=""></a> 
+<a href="https://instagram.com/bolgrad_himnazia_rakovski?igshid=YmMyMTA2M2Y=" style=" position: absolute; top: 46%; left: 50%;max-width: 90%; "><img src="static/img/icons8-instagram-64 1.png" style="width: 4.5vw;" alt=""></a> 
+
+</section>
+
+
+<footer class="subfooter" style="background: #C69F78; margin-top: 0%; position: relative;">
+  <img src="static/img/image_2023-02-12_17-46-10 1 (1).png" style="position: absolute;
+  border-radius: 103px;
+  width: 10.7%;
+  left: 7.2%;
+  top: 30%;
+  user-select: none;
+  
+    ;" alt="">
+   <span style="font-family: 'Playfair Display';
+   white-space: nowrap;
+    max-width: 31.5%;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2vw;
+   line-height: 2.25vw;
+   position: absolute;
+   left: 18.3%;
+   top: 35%;
+   user-select: none;
+   color: #422712;
+   ">ОЗ "Спеціалізована загальноосвітня<br> школа-інтернат "Болградська гімназія<br> ім. Г.С. Раковського"</span>  
+  <div style="font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.25vw;
+  position: absolute;
+  top: 75%;
+  white-space: nowrap;
+  left: 18%;
+  max-width: 24%;
+  user-select: none;
+  color: #7A5B44;">Дизайн та розробка: Желяскова Валерія та Жолтов Юрій  </div>
+
+
+
+<img src="static/img/icons8-список-звонков-50 1.png" style="width: 2.6%;position: absolute;
+top: 30%;
+
+left: 53%;" alt="">
+
+<a href="tel:+380484641307" style="position: absolute; font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75vw;
+   line-height: 1.55vw;
+position: absolute;
+top: 33%;
+
+left: 56%;
+max-width: 24%;
+user-select: none;
+color: #422712;">(04846)41307</a>
+
+<div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 45%;*"></div>
+
+
+
+<img src="static/img/icons8-google-карты-24 1.png" style="width: 2.1%;position: absolute;
+top: 45%;
+
+left: 53%;" alt="">
+
+<address style="position: absolute; font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75vw;
+   line-height: 1.55vw;
+position: absolute;
+top: 48%;
+
+left: 56%;
+max-width: 24%;
+user-select: none;
+color: #422712;">вул. Училищна, Болград</address>
+
+<div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 60%;*"></div>
+
+
+<img src="static/img/icons8-сообщение-с-заливкой-30 1.png" style="width: 2.2%;position: absolute;
+top: 62%;
+
+left: 53%;" alt="">
+
+<address style="position: absolute; font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75vw;
+   line-height: 1.55vw;
+position: absolute;
+top: 63%;
+
+left: 56%;
+max-width: 24%;
+user-select: none;
+color: #422712;">gimnaziya_bol@ukr.net</address>
+
+<div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 75%;*"></div>
+
+
+<a href="https://instagram.com/bolgrad_himnazia_rakovski?igshid=YmMyMTA2M2Y=" style="">
+  <img src="static/img/icons8-instagram-30 (1) 1.png" style="width: 3.2%; position: absolute; top: 37%; left: 75.5%;" alt="">
+
+</a>
+
+<a href="https://www.facebook.com/people/%D0%91%D0%BE%D0%BB%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F-%D0%B3%D0%B8%D0%BC%D0%BD%D0%B0%D0%B7%D0%B8%D1%8F-%D0%B8%D0%BC-%D0%93%D0%A1-%D0%A0%D0%B0%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE/100054674880271/" style="">
+  <img src="static/img/icons8-facebook-24 1.png" style="width: 2.5%; position: absolute; top: 55%; left: 75.9%;" alt="">
+
+</a>
+
+<img src="static/img/image 1.png" style="width: 23%; position: absolute; top: 10%; left: 78%;" alt="">
+
+  
+  <div style="
+  
+background: #C59E77;
+  filter: blur(0.5vw);
+  height: 20%;
+  position: absolute;
+  top: -3%;
+  width: 105%;
+  left: -2%;
+  width: 105%;"></div>
+
+</footer>
+
+</body>
+</html>

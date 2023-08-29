@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en"style="overflow-y: visible;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')  }}"  >
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style1.css')  }}"  >
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<style>
+    html,
+    body {
+      position: relative;
+      height: 100vh;
+    }
+  
+    body {
+        background: url('/static/img/Дошка\ оголошень\ \(1\).png');
+  
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+</style>
+</head>
+<body>
+  <header  style="height: 15%; background: rgba(197, 158, 119, 0.69); width: 100%; position: relative; " >
+      
+       
+            
+    <img src="static/img/image_2023-02-12_17-46-10 1 (1).png"  style="margin-top: 0.65%; margin-left: 13%; width: 6%; user-select: none;">
+  
+  
+    <h1 id="title">ОЗ "Спеціалізована загальноосвітня школа-інтернат<br>"Болградська гімназія ім. Г.С. Раковського"</h1>
+  
+
+</header> <section class="subheader" style="height: 7%; position: relative;">
+  <a href="{{domain}}" style="position: absolute; top: 10%; padding-top: 0.5%; left: 13.2%;  "><p class="navs" style="font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 1.25vw;
+    
+    /* identical to box height */
+    user-select: none;
+    
+    color: #FFFFFF;">Головна</p></a>
+    <a href="{{domain}}/history.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 20.0%;  "><p class="navs" style="font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1vw;
+      line-height: 1.25vw;
+      
+      /* identical to box height */
+      user-select: none;
+      
+      color: #FFFFFF;">Про заклад</p></a>
+      <a href="{{domain}}/attention.html" style="position: absolute; top: 10%; padding-top: 0.5%; left: 28.2%;  "><p class="navs" style="font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1vw;
+        line-height: 1.25vw;
+        
+        /* identical to box height */
+        user-select: none;
+        
+        color: #FFFFFF;">Новини</p></a>
+        
+
+<a href="https://nz.ua/school/wall?id=22336"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 35.0%;  "><p class="navs" style="font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 1vw;
+line-height: 1.25vw;
+
+/* identical to box height */
+user-select: none;
+
+color: #FFFFFF;">Електронний щоденник</p></a>
+<a href="{{domain}}/news.html"target="_blank" style="position: absolute; top: 10%; padding-top: 0.5%; left: 50.0%;  "><p class="navs" style="font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 1.25vw;
+  
+  /* identical to box height */
+  user-select: none;
+  
+  color: #FFFFFF;">Дошка оголошень</p></a>
+
+   
+  
+
+</section>
+
+
+{% if isAdmin()  %}
+<div style="margin-top: 10%;">
+  <form method="post" enctype="multipart/form-data" >
+    
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Title</label>
+      <input type="text" class="form-control" id="exampleFormControlInput1" name="title" placeholder="Введіть заголовок статті">
+    </div>
+   
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Main text</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" name="main_text" rows="3"></textarea>
+    </div>
+    <input type="file" name="files" multiple="multiple" name="files">
+    <input type="submit" name="upload_post" value="submit">
+  </form>
+</div>
+{% endif %}
+
+
+
+
+{% for item in Post.objects.all() %}
+<section>
+<div class="container" style="width: 100%;
+height: 100%;" >
+  <div class="row" >
+    <div class="col-xl-12 " >
+      <div class="card my-4">
+       
+        <div class="card-body" style="background: #FFF6ED;">
+          <div class="row">
+            <div class="col-md-8" style="position: relative;" >
+              <!-- Slider main container -->
+
+              <div class="swiper mySwiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  {%for image_source in item.images %}
+                  <div class="swiper-slide"><img src="{{image_source}}" alt=""></div>
+                  
+                  {%endfor%}
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+              
+
+              
+            </div>
+            <div class="col-md-4" >
+              <div class="user-info d-flex align-items-center mb-3" style="border-bottom: 1px solid #422712;
+              padding-bottom: 5px;">
+                <img src="/static/img/image_2023-02-12_17-46-10 1 (1).png" class="avatar mr-2" alt="User Avatar">
+                <h5 class="username m-0" style="font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 1.2em;
+                word-wrap: break-word;
+                max-width: 85%;
+                
+                /* identical to box height */
+                
+                
+                color: #422712">bolgrad_himnazia_rakovski</h5>
+              </div>
+              <h5 class="card-title" style="margin-top: 5%; font-family: 'Playfair Display';
+              font-style: normal;
+              font-weight: 700;color: #422712;">{{item.title}}</h5>
+              <p class="card-text" style="max-height: 70%;
+              overflow-y: scroll; 
+  
+              font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 100%;
+
+
+color: #422712;
+
+  ">{{item.content}}</p>
+              {% if  current_user.is_authenticated and current_user.id not in item.users_who_liked %}
+              <div class="d-flex justify-content-between mt-2">
+                <button type="submit" name="like" value="submit"  data-object-id="{{ item.id }}" class="btn btn-sm btn-outline-primary   like-button"  ></button>
+              </div>
+              {%endif%}
+              {% if  current_user.is_authenticated and current_user.id in item.users_who_liked %}
+              <div class="d-flex justify-content-between mt-2">
+                <button type="submit" name="like" value="submit"  data-object-id="{{ item.id }}" class="btn btn-sm btn-outline-primary   like-button pressed"  ></button>
+              </div>
+              {%endif%}
+              {% if not  current_user.is_authenticated %}
+              <div class="d-flex justify-content-between mt-2">
+                <button type="submit" name="like" value="submit"  data-object-id="{{ item.id }}" class="btn btn-sm btn-outline-primary   like-button"  ></button>
+              </div>
+              {%endif%}
+              <div class="row">
+                <div class="col">
+                  
+                  <small class="like-count" data-object_id="{{item.id}}" style="font-family: 'Open Sans';
+                  font-style: normal;
+                  font-weight: 400;
+                
+                  /* identical to box height */
+                  
+                  
+                  ">{{item.likes}} позначки “Подобається”
+                  <span class="message-like"></span>
+                <SMALL style="float:right; margin-top: 1.5%;font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+              
+                /* identical to box height */
+                
+                
+                color: rgba(66, 39, 18, 0.62);">{{item.author}} {{item.created_at}}</SMALL>  
+                
+                </small>
+                
+                  <div class="comment-block" style="max-height: 100px; overflow-y: scroll;">
+                    
+                      {%for comment in Comment1.objects.filter(post=Post.objects.get(id=item.id)) %}
+
+                      {%if current_user.username == comment.author %}
+                      <div style="padding: 10px; display: flex; align-items: flex-start;" class="comment {{comment.id}}" data-comment-id="{{comment.id}}">
+                        
+                        <img src="{{comment.photo}}" alt="User Avatar" style="width: 40px; border-radius: 50%; margin-right: 10px;height: 40px;">
+                        <div style="flex: 1;">
+                          <div style="font-weight: bold;font-family: 'Open Sans';
+                          font-style: normal;
+                          font-weight: 700;
+                        
+                          
+                          color: rgba(66, 39, 18, 0.62);">{{comment.author}}</div>
+                          <div  style="word-wrap: break-word;font-family: 'Open Sans';
+                          font-style: normal;
+                          font-weight: 400;
+                         
+                          color: #422712;">{{comment.text}}</div>
+                          
+                        </div>
+                        <button style="border: none; background-color: transparent;" class="delete-comment" data-comment-id="{{comment.id}}"><img src="/static/img/icons8-мусор-24.png" style="width: 16px;" alt=""></button>
+                      </div>
+                      <script>
+      // Получаем кнопки "Удалить комментарий"
+var deleteCommentButtons = document.querySelectorAll('.delete-comment');
+
+// Обходим все кнопки "Удалить комментарий" и назначаем обработчик клика
+for (var i = 0; i < deleteCommentButtons.length; i++) {
+  (function(index) {
+    deleteCommentButtons[index].addEventListener('click', function(event) {
+      // Получаем идентификатор комментария из атрибута data-comment-id кнопки
+     
+      var commentId = deleteCommentButtons[index].dataset.commentId;
+
+      // Создаем новый объект XMLHttpRequest
+      var xhr2 = new XMLHttpRequest();
+
+      // Настраиваем запрос DELETE для удаления комментария с указанным идентификатором
+      xhr2.open('DELETE', '/api/comments/' + commentId + '/' +'{{csrf}}');
+      xhr2.setRequestHeader('Content-Type', 'application/json');
+      xhr2.setRequestHeader("X-CSRFToken", '{{csrf}}');
+      // Добавляем заголовок Content-Type со значением application/json
+      
+
+      // Отправляем запрос
+      xhr2.send();
+
+      // Назначаем обработчик события load на объект XMLHttpRequest
+      xhr2.addEventListener('load', function() {
+        // Если запрос выполнен успешно и комментарий удален из базы данных
+        if (xhr2.status === 200) {
+          // Удаляем комментарий из DOM
+          event.target.parentElement.parentElement.remove();
+        } else {
+          console.log(xhr2.responseText)
+        }
+      })
+    })
+  })(i);
+}
+
+                      </script>
+                      {%else%}
+                      <div style="padding: 10px; display: flex; align-items: flex-start;">
+                        
+                        <img src="{{comment.photo}}" alt="User Avatar" style="width: 40px; border-radius: 50%; margin-right: 10px;height: 40px;">
+                        <div style="flex: 1;">
+                          <div style="font-weight: bold;font-family: 'Open Sans';
+                          font-style: normal;
+                          font-weight: 700;
+                        
+                          
+                          color: rgba(66, 39, 18, 0.62);">{{comment.author}}</div>
+                          <div  style="word-wrap: break-word;font-family: 'Open Sans';
+                          font-style: normal;
+                          font-weight: 400;
+                         
+                          color: #422712;">{{comment.text}}</div>
+                          
+                        </div>
+                       
+                      </div>
+                      {%endif%}
+                      {%endfor%}
+                    
+
+                   
+                    
+                    
+                  </div>
+                </div>
+                <div class="comment-form">
+                  <form method="POST">
+                    <div class="form-group">
+                      <input type="hidden" name="post_id" id="hidden" value="{{ item.id }}">
+                      <input type="text" id="comment" name="comment" style="background: #FFF6ED;" class="form-control" placeholder="Додати коментар..." required>
+                      <button type="submit" class="btn btn-danger comment-button" name="upload_comment" value="submit" style="height: 40px; background: #FFF6ED; border: none;"><span style="font-family: Opens Sans;
+                      color: rgb(26, 147, 255);">Опублікувати</span></button>
+                    </div>
+                    <div class="message-comment"></div>
+                  </form>
+                </div>
+                {%for flash in get_flashed_messages()%}
+
+                
+                {%if flash.split('post_id')[1].split("=")[1].split("<")[0] == str(item.id)  %}
+                <div class="alert alert-danger" role="alert">{{flash|safe}}</div>
+                {%endif%}
+                {%endfor%}
+            </div>
+            
+            
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{% endfor %} 
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
+  });
+</script>
+
+<footer class="subfooter" style="background: #E9CFB4; margin-top: 10%; position: relative;">
+  <img src="static/img/image_2023-02-12_17-46-10 1 (1).png" style="position: absolute;
+  border-radius: 103px;
+  width: 10.7%;
+  left: 7.2%;
+  top: 30%;
+  user-select: none;
+  
+    ;" alt="">
+   <span style="font-family: 'Playfair Display';
+   white-space: nowrap;
+    max-width: 31.5%;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2vw;
+   line-height: 2.25vw;
+   position: absolute;
+   left: 18.3%;
+   top: 35%;
+   user-select: none;
+   color: #422712;
+   ">ОЗ "Спеціалізована загальноосвітня<br> школа-інтернат "Болградська гімназія<br> ім. Г.С. Раковського"</span>  
+  <div style="font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 1.25vw;
+  position: absolute;
+  top: 75%;
+  white-space: nowrap;
+  left: 18%;
+  max-width: 24%;
+  user-select: none;
+  color: #7A5B44;">Дизайн та розробка: Желяскова Валерія та Жолтов Юрій  </div>
+
+
+
+<img src="static/img/icons8-список-звонков-50 1.png" style="width: 2.6%;position: absolute;
+top: 30%;
+
+left: 53%;" alt="">
+
+<a href="tel:+380484641307" style="position: absolute; font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75vw;
+   line-height: 1.55vw;
+position: absolute;
+top: 33%;
+
+left: 56%;
+max-width: 24%;
+
+color: #422712;;">(04846)41307</a>
+
+<div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 45%;*"></div>
+
+
+
+<img src="static/img/icons8-google-карты-24 1.png" style="width: 2.1%;position: absolute;
+top: 45%;
+
+left: 53%;" alt="">
+
+<address style="position: absolute; font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75vw;
+   line-height: 1.55vw;
+position: absolute;
+top: 48%;
+
+left: 56%;
+max-width: 24%;
+
+color: #422712;">вул. Училищна, Болград</address>
+
+<div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 60%;*"></div>
+
+
+<img src="static/img/icons8-сообщение-с-заливкой-30 1.png" style="width: 2.2%;position: absolute;
+top: 62%;
+
+left: 53%;" alt="">
+
+<address style="position: absolute; font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 1.75vw;
+   line-height: 1.55vw;
+position: absolute;
+top: 63%;
+
+left: 56%;
+max-width: 24%;
+user-select: none;
+color: #422712;">gimnaziya_bol@ukr.net</address>
+
+<div style="border: 1px solid #5B1818; width: 21.3%; position: absolute; left: 53%; top: 75%;*"></div>
+
+
+<a href="" style="">
+  <img src="static/img/icons8-instagram-30 (1) 1.png" style="width: 3.2%; position: absolute; top: 37%; left: 75.5%;" alt="">
+
+</a>
+
+<a href="" style="">
+  <img src="static/img/icons8-facebook-24 1.png" style="width: 2.5%; position: absolute; top: 55%; left: 75.9%;" alt="">
+
+</a>
+
+<img src="static/img/image 1.png" style="width: 23%; position: absolute; top: 10%; left: 78%;" alt="">
+
+  
+  <div style="
+  background: #E9CFB4;
+  filter: blur(15px);
+  height: 20%;
+  position: absolute;
+  top: -10%;
+  width: 105%;"></div>
+
+</footer>
+
+
+{% if  current_user.is_authenticated %}
+<script>const likeButtonS = document.querySelectorAll('.like-button');
+
+  // перебираем все кнопки и вешаем на них обработчик клика
+  likeButtonS.forEach((button) => {
+    button.addEventListener('click', () => {
+      // получаем id поста из атрибута data-object_id
+      const postId = button.dataset.objectId;
+      console.log(button)
+console.log(postId); 
+      // получаем CSRF-токен из метатега на странице
+      const csrfToken = '{{csrf}}'
+      // получаем ID текущего пользователя
+      const currentUserId = '{{current_user.id}}'
+  
+      // создаем объект XMLHttpRequest для отправки запроса на сервер
+      const xhr = new XMLHttpRequest();
+      
+      // проверяем, был ли этот пост уже лайкнут пользователем
+      xhr.open('POST', '/wasliked/' + postId + '/' + csrfToken + '/' + currentUserId, true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+      xhr.setRequestHeader('X-CSRFToken', csrfToken);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          const response = JSON.parse(xhr.responseText).post_was_liked_by_user;
+          // если пост не был лайкнут пользователем, то отправляем запрос на лайк
+          if (response === false) {
+            xhr.open('POST', '/like/' + postId + '/' + csrfToken + '/' + currentUserId, true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.setRequestHeader('X-CSRFToken', csrfToken);
+            xhr.onreadystatechange = () => {
+              if (xhr.readyState === 4 && xhr.status === 200) {
+                
+                const likeCount = document.querySelector('.like-count[data-object_id="' + postId + '"]');
+                const newCount = JSON.parse(xhr.responseText).likes;
+                likeCount.textContent = newCount.toString() + ' позначки "Подобається"';
+                button.classList.add('pressed');
+              }
+            };
+            xhr.send(JSON.stringify({}));
+          // если пост уже был лайкнут пользователем, то отправляем запрос на удаление лайка
+          } else {
+            xhr.open('POST', '/removelike/' + postId + '/' + csrfToken + '/' + currentUserId, true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.setRequestHeader('X-CSRFToken', csrfToken);
+            xhr.onreadystatechange = () => {
+              if (xhr.readyState === 4 && xhr.status === 200) {
+                console.log(postId)
+                const likeCount = document.querySelector('.like-count[data-object_id="' + postId + '"]');
+                const newCount = JSON.parse(xhr.responseText).likes;
+                likeCount.textContent = newCount+ ' позначки "Подобається"';
+                button.classList.remove('pressed');
+              }
+            };
+            xhr.send(JSON.stringify({}));
+          }
+        }
+      };
+      xhr.send(JSON.stringify({}));
+    });
+  });
+
+</script>
+
+<script>
+
+  console.log(likeButtonS)
+
+</script>
+
+{% endif %}
+{% if not  current_user.is_authenticated %}
+<script> const likeButtons = document.querySelectorAll('.like-button');
+
+  likeButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      
+      const post = button.closest('.container'); // находим ближайший элемент с классом post
+      
+    
+        // находим элемент для вывода сообщения внутри поста
+        const messageBlock = post.querySelector('.message-like');
+  
+        // создаем элемент для сообщения и добавляем его в блок для вывода сообщения
+        const message = document.createElement('a');
+        message.href = '/login';
+        message.innerText = 'Увійдіть в аккаунт задля взаємодії з публікаціями';
+        messageBlock.classList.add('alert.alert-danger');
+        messageBlock.appendChild(message);
+        button.disabled = true;
+      
+  });
+  });
+
+  const commentButtons = document.querySelectorAll('.comment-button')
+
+  commentButtons.forEach(button => {
+    button.addEventListener('click', () =>{
+      const post = button.closest('.container')
+      const messageBlock = post.querySelector('.message-comment')
+
+      const message = document.createElement('a');
+        message.href = '/login';
+        message.innerText = 'Увійдіть в аккаунт задля взаємодії з публікаціями';
+        messageBlock.classList.add('alert.alert-danger');
+        messageBlock.appendChild(message);
+        button.disabled = true;s
+    })
+
+
+  })
+</script>
+
+{%endif %}
+
+</div>
+</body>
+</html>
